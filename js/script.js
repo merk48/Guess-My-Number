@@ -68,7 +68,7 @@ submitCheck.addEventListener('click', function (event) {
       score.textContent--;
     }
     // if score < 1 means = 0 then it's over!
-    else if (score.textContent = 1) {
+    else if (score.textContent === '1') {
       // change message to lose;
       score.textContent = 0;
       message.textContent = '💥 You lost the game! ';
